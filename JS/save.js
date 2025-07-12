@@ -38,11 +38,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:ADNAN ALBAKKOUR
+FN:Jana Assad
 TITLE:Sales Manager
 ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971586410997
-EMAIL:adnano@dpdxb.com
+TEL;TYPE=WORK,VOICE:+971505185807
+EMAIL:Janaasaad825@gmail.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -53,7 +53,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'ADNAN ALBAKKOUR.vcf';
+  a.download = 'Jana Assad.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
